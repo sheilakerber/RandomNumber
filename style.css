@@ -1,0 +1,83 @@
+body::after {
+    content: "";
+    background: url(https://as1.ftcdn.net/jpg/02/07/36/90/500_F_207369095_YKreLxGfzGHOdLpfhIixP2FD0YRz28oQ.jpg);
+    background-size: 70px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+}
+
+#random0ate9,
+#random0ate99 {
+    display: block;
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(236, 217, 252, 0.9);
+    box-shadow: rgba(0, 0, 0, 0.6) 5px 5px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+p {
+    font-size: 16pt;
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    font-weight: 600;
+    color: rgb(124, 5, 221);
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 12pt;
+    outline: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+input[type=number] {
+    width: 90px;
+    height: 30px;
+    padding: px;
+    border-radius: 8px;
+    border: none;
+}
+
+input[type=button] {
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(154, 192, 236);
+    color: white;
+    font-weight: bold;
+}
+
+input[type=button]:hover {
+    background-color: rgb(245, 6, 205);
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+}
+
+#res0ate9,
+#res0ate99 {
+    font-family: 'MuseoModerno', cursive;
+    font-weight: normal;
+    font-size: 14pt;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
